@@ -1,10 +1,10 @@
-package com.Profolio.Gea;
+package com.gea.green;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GeaApplicationTests {
+class GreenApplicationTests {
 
 	@Test
 	void contextLoads() {

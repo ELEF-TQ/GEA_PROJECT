@@ -1,13 +1,13 @@
-package com.Profolio.Gea;
+package com.gea.green;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GeaApplication {
+public class GreenApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GeaApplication.class, args);
+		SpringApplication.run(GreenApplication.class, args);
 	}
 
 }
