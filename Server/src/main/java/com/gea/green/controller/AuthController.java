@@ -19,12 +19,9 @@ public class AuthController {
         this.adminService = adminService;
     }
 
-    @PostMapping("/login")
+    @PostMapping("auth/login")
     public ResponseEntity<String> loginAdmin(@RequestBody Admin admin) {
-        // Implement your authentication logic here
-        // For simplicity, let's assume admin authentication is successful if the username and password match
         boolean isAuthenticated = adminService.authenticateAdmin(admin.getUsername(), admin.getPassword());
-
         if (isAuthenticated) {
             return ResponseEntity.ok("Admin login successful");
         } else {

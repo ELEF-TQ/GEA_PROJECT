@@ -9,17 +9,6 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     icon: <Icon icon="lucide:home" width="24" height="24" />,
   },
   {
-    title: 'Projects',
-    path: '/dashboard/projects',
-    icon: <Icon icon="lucide:folder" width="24" height="24" />,
-    submenu: true,
-    subMenuItems: [
-      { title: 'All', path: '/dashboard/projects' },
-      { title: 'Web Design', path: '/dashboard/projects/web-design' },
-      { title: 'Graphic Design', path: '/dashboard/projects/graphic-design' },
-    ],
-  },
-  {
     title: 'Messages',
     path: '/dashboard/messages',
     icon: <Icon icon="lucide:mail" width="24" height="24" />,

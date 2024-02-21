@@ -16,10 +16,7 @@ public class AdminService {
     }
 
     public boolean authenticateAdmin(String username, String password) {
-        // Fetch admin by username from the database
         Admin admin = adminRepository.findByUsername(username);
-
-        // Check if admin exists and if the provided password matches
         return admin != null && admin.getPassword().equals(password);
     }
 }
